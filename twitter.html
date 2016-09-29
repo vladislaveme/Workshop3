@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Twitter</title>
+	<!-- Bootstrap's CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/twitter.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="nav navbar-nav navbar-left">
+				<!-- Left-aligned items -->
+				<div class="btn-toolbar pull-left" role="toolbar">
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default navbar-btn">
+							<span class="glyphicon glyphicon-home">Home</span>
+						</button>
+						<button type="button" class="btn btn-default navbar-btn">
+							<span class="glyphicon glyphicon-flash">Moments</span>
+						</button>
+						<button type="button" class="btn btn-default navbar-btn">
+							<span class="glyphicon glyphicon-bell">Notifications</span>
+						</button>
+						<button type="button" class="btn btn-default navbar-btn">
+							<span class="glyphicon glyphicon-envelope">Messages</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<ul class="nav navbar-nav navbar-right list-inline">
+				<li>
+					<form class="navbar-form" role="search">
+						<!-- Right-aligned items. -->
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search Twitter">
+							<span class="input-group-btn">
+								<button type="submit" class="btn btn-default">
+									<span class="glyphicon glyphicon-search"></span>
+								</button>
+							</span>
+						</div>
+					</form>
+				</li>
+				<li>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default navbar-btn">
+							PIC
+						</button>
+					</div>
+				</li>
+				<li>
+					<div class="btn-group" role="group">
+						<button type="button" class="btn btn-default navbar-btn">
+							<span class="glyphicon glyphicon-edit">Tweet</span>
+						</button>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container t-main">
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-8">
+				<div class="panel panel-default t-tweet">
+					<div class="panel-body">
+						<!-- Post metadata -->
+						<div class="row">
+							<div class="col-md-8">
+								<div class="media">
+									<div class="media-left media-top">
+										PIC
+									</div>
+									<div class="media-body">
+										<a href="#">NASA </a><span class="glyphicon glyphicon-check"></span>
+										<br>@NASA
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<span class="glyphicon glyphicon-asterisk pull-right"> Following</span>
+							</div>
+						</div>
+						<!-- Post content -->
+						<div class="row">
+							<div class="col-md-12">
+								This spiral galaxy hosts a supermassive black hole that's also super-hungry: <a href="#">http://go.nasa.gov/1Rp6V2w  @NASA_Hubble</a>
+								<img src="img/NASA.jpg" width="100%" />
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="list-inline">
+									<li>
+										RETWEETS
+										<br>
+										1,747
+									</li>
+									<li>
+										LIKES
+										<br>
+										2,911
+									</li>
+									<li>
+										<ul class="list-inline t-people">
+											<li>
+												<a href="#">PIC</a>
+											</li>
+											<li>
+												<a href="#">PIC</a>
+											</li>
+											<li>
+												<a href="#">PIC</a>
+											</li>
+											<li>
+												<a href="#">PIC</a>
+											</li>
+											<li>
+												<a href="#">PIC</a>
+											</li>
+											<li>
+												<a href="#">PIC</a>
+											</li>
+											<li>
+												<a href="#">PIC</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+					<div class="panel-footer">
+						<div class="row">
+							<div class="col-md-12">
+								12:44 PM - 8 Jan 2016
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="list-inline t-footer-ish">
+									<li>
+										<a href="#" class="glyphicon glyphicon-arrow-left"></a>
+									</li>
+									<li>
+										<a href="#" class="glyphicon glyphicon-refresh"></a>
+									</li>
+									<li>
+										<a href="#" class="glyphicon glyphicon-heart"></a>
+									</li>
+									<li>
+										<a href="#" class="glyphicon glyphicon-option-horizontal"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<hr>
+						<ul class="media-list">
+							<li class="media">
+								<div class="media-left media-top">
+									PIC
+								</div>
+								<div class="media-body">
+									<div class="input-group">
+										<input type="text" class="form-control t-search" placeholder="Reply to @NASA @NASA_Hubble">
+										<span class="input-group-btn">
+											<button type="submit" class="btn btn-default">
+												Reply
+											</button>
+										</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+			</div>
+		</div>
+	</div>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+</body>

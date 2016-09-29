@@ -1,0 +1,31 @@
+/* Css code for Twitter page */
+body {
+	background-color:lightgrey;
+}
+.t-search {
+	border-top-right-radius:10px !important;
+	border-top-left-radius:10px !important;
+	border-bottom-right-radius:10px !important;
+	border-bottom-left-radius:10px !important;
+}
+
+.t-tweet{
+}
+
+.t-main {
+	margin-top:70px;
+}
+
+.t-people {
+	margin-left:20px;
+}
+.t-footer-ish {
+	margin-top:10px;
+}
+.t-footer-ish li {
+	padding-right:50px;
+}
+
+.t-footer-ish li a:hover {
+	text-decoration:none;
+}
